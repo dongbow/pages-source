@@ -6,5 +6,5 @@ tags:
 	- Spring bean
 ---
 如下图  
-![image](./springbean/1.png)
-![image](./springbean/2.png)
+![image](1.png)
+![image](2.png)
