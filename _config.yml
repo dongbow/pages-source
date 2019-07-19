@@ -93,4 +93,6 @@ feed:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:dongbow/dongbow.github.io.git
+  branch: master
