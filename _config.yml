@@ -96,3 +96,5 @@ deploy:
   type: git
   repo: git@github.com:dongbow/dongbow.github.io.git
   branch: master
+  name: dongbow
+  email: dongbow1@gmail.com
