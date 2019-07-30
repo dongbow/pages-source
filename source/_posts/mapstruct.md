@@ -7,6 +7,7 @@ tags:
 ---
 ## 简介
 mapstrct是一个很好注释处理的框架，解决繁琐domain之间值的转换，节约开发的时间，同时相对应copyProperty的好处是没有使用反射技术，使性能更优。mapstrut一共两个主要的包，org.mapstruct.mapstruct包含里面常用的注释，org.mapstruct.mapstruct-processor处理注释的实现。
+<!-- more -->
 
 ## 官方文档
 [文档传送门](http://mapstruct.org/documentation/stable/reference/html/)
