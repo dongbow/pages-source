@@ -17,7 +17,7 @@ Iterator-->Collection
 Iterator--> ...
 Collection--> Set
 Collection--> List
-Collection--> Quene
+Collection--> Queue
 ```
 Collection的父类接口是Iterator，但是Iterator的子类并不仅仅是Collection。
 
