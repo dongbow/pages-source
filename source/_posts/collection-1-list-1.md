@@ -131,7 +131,7 @@ public void add(int index, E element) {
     size++;
 }
 ```
-删除也是和添加类似的处理方式，将删除的元素进行重新的处理。而get则是获取数组下标对应的元素。[System.arraycopyc参考](https://blog.csdn.net/qq_32440951/article/details/78357325)
+删除也是和添加类似的处理方式，将删除的元素进行重新的处理。而get则是获取数组下标对应的元素。[System.arraycopyc参考](https://blog.csdn.net/qq_32440951/article/details/78357325)    
 
 ### AbstractSequentialList
 - public E get(int index)
@@ -139,8 +139,9 @@ public void add(int index, E element) {
 - public E remove(int index)
 - public boolean addAll(int index, Collection<? extends E> c)
 - public Iterator<E> iterator()
-- public abstract ListIterator<E> listIterator(int index)
-
+- public abstract ListIterator<E> listIterator(int index)  
+  
+    
 ### LinkedList
 LinkedList底层是一个双向链表，它增删快，效率高，但是查询慢，线程不安全
 
@@ -372,7 +373,8 @@ public int indexOf(Object o) {
     }
     return -1;
 }
-```
+```  
+
 ### Vector
 Vector的底层也是通过数组实现的，默认大小也是10。主要特点：查询快，增删慢，线程安全，但是效率低
 
